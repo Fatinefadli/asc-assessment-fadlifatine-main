@@ -1,0 +1,36 @@
+default:
+    timestamp: 1663771641781
+    metadata: {
+        holdingsAppAddress: KDN2FJPFCK2PI37UTDEI5T5ZTF3PGPLYLOTVFDOWIFBETGBYWKM2XSFUJE,
+        holdingsAppID: 240
+    }
+    asa: {}
+    ssc:
+        mint_approval.py-mint_clearstate.py:
+            1663771642:
+                creator: GJBHCTYFV4YDV4LB5U64V7IH4FZYS6KFCZ33B5YFSTC4K5M7UCFHRYS7SQ
+                txId: HTIG34XQS6LZELPFZHGU2PRFW555A7KRELHHCTBT5U7PU2LPO42A
+                confirmedRound: 114024
+                appID: 236
+                applicationAccount: 2ORZO47G4XWAUENDCYYISQ4WMOJPFC4UKT7FCVMQ2GV2WCMPBQVEL2F56I
+                timestamp: 1663771642
+                deleted: false
+        holdings_approval.py-holdings_clearstate.py:
+            1663771666:
+                creator: GJBHCTYFV4YDV4LB5U64V7IH4FZYS6KFCZ33B5YFSTC4K5M7UCFHRYS7SQ
+                txId: TBEW55PDR3UMYQZQMXVLACDWRGCQ2N2AY6TODGC3ZMRO2KZ7Q2TQ
+                confirmedRound: 114030
+                appID: 240
+                applicationAccount: KDN2FJPFCK2PI37UTDEI5T5ZTF3PGPLYLOTVFDOWIFBETGBYWKM2XSFUJE
+                timestamp: 1663771666
+                deleted: false
+        burn_approval.py-burn_clearstate.py:
+            1663771690:
+                creator: GJBHCTYFV4YDV4LB5U64V7IH4FZYS6KFCZ33B5YFSTC4K5M7UCFHRYS7SQ
+                txId: NGDHWT2NIY3UD47QWEF7DW4PFB45B3LEEAAZO5T7ABGIKPOVPUIQ
+                confirmedRound: 114036
+                appID: 244
+                applicationAccount: 7L5MR6WLT2XGQORTRKTJX5SNDPGKMCLZQFJKRDHEMK6PFIGBGGJVR2ZPOI
+                timestamp: 1663771690
+                deleted: false
+    dLsig: {}
