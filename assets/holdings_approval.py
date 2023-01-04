@@ -62,6 +62,7 @@ def holdings_approval():
         Assert(Gtxn[1].type_enum()==TxnType.ApplicationCall),
         Assert(amountOftesla>Int(0)),
         Assert(App.globalGet(Bytes("assetID"))==Gtxn[1].assets[0]),
+        Assert(Gtxn[0].amount() == App.globalGet(Bytes("current_price")) * amountOftesla + Int(1000)),
         Assert(account1SpendableBalance>=App.globalGet(Bytes("current_price"))*amountOftesla+Int(1000)),
         InnerTxnBuilder.Begin(),
         InnerTxnBuilder.SetFields({
